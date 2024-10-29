@@ -71,7 +71,7 @@ useEffect(()=>{
   }, [])
 
   return (
-          <div className="w-full h-auto flex flex-col gap-10  ">
+          <div className="w-full h-auto flex flex-col gap-10  overflow-hidden ">
 
             <section id="hero"  className="relative pb-20 md:pb-0  bg-gradient-to-br from-[#815454] via-[#301f1f] to-[#815454] lg:rounded-b-[100px]  "        
             >
@@ -87,7 +87,7 @@ useEffect(()=>{
               </h2>
               </div>
             </div>
-            <div className="   flex justify-center items-center">
+            <div className=" h-auto  flex justify-center items-center">
                 <div className="rounded-xl  p-[28px] md:p-[50px]  min-w-[320px]  shadow-2xl bg-white">
                 <form className="flex flex-col w-full     ">
                   <div>

@@ -6,7 +6,7 @@ const Nav=()=>{
       <div className="   rounded-sm ">
         <img  src="#" className="w-20 rounded-xl object-cover"/>
       </div>
-       <div className="flex items-center justify-center text-white text-xl" > <ul className="flex gap-6">
+       <div className="md:flex items-center hidden justify-center text-white text-xl" > <ul className="flex  md:gap-4 lg:gap-6">
         <li> Home</li>
         <li>Welcome</li>
         <li>Services</li>
