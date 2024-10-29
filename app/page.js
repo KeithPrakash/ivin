@@ -71,7 +71,7 @@ useEffect(()=>{
   }, [])
 
   return (
-          <div className="w-full h-auto flex flex-col gap-10  overflow-hidden ">
+          <div className="w-full h-auto flex flex-col gap-10  bg-gradient-to-t from-[#f4ecec] via-[#ddc4c4] to-[#f4ecec]">
 
             <section id="hero"  className="relative pb-20 md:pb-0  bg-gradient-to-br from-[#815454] via-[#301f1f] to-[#815454] lg:rounded-b-[100px]  "        
             >
@@ -115,7 +115,7 @@ useEffect(()=>{
              <section id="id" >
               <div className=" md:grid    lg:grid-cols-8  lg:h-[90dvh] w-[calc(100%-50px)] m-auto ">
 
-              <div className="lg:col-span-5 flex flex-col gap-5  p-5 md:p-10 lg:p-20 bg-[#815454]   bg-gradient-to-br from-[#815454] rounded-3xl to-[#815454] ">
+              <div className="lg:col-span-5 flex flex-col gap-5  p-5 md:p-10 lg:p-20 bg-[#815454]    bg-gradient-to-br from-[#815454] rounded-3xl to-[#815454]  " >
                 <div className="flex flex-col gap-5 justify-center items-center h-full w-full text-white" >
                 <h2 className="font-semibold text-2xl md:3xl">Welcome to Your Future of Boundless Opportunities </h2>
 
@@ -165,7 +165,7 @@ Our personalized approach ensures that every step is tailored to your needs, giv
 
               <div className="w-full h-full bg-[#6c4848]  rounded-3xl p-5 md:p-20 " >
               <h2 className="text-2xl lg:text-5xl text-center text-white my-10  "> Why choose us?</h2>
-               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 m-3 md:m-10 lg:m-20 p-5 gap-5 ">
+               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3    gap-5 ">
 
               {   chooseUS? chooseUS.map((item,index)=>(
                      <TrustCard   key={index}  title={item.title}  desc={item.description}/>
