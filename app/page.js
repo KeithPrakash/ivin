@@ -88,17 +88,17 @@ useEffect(()=>{
               </div>
             </div>
             <div className=" h-auto  flex justify-center items-center">
-                <div className="rounded-xl  p-[28px] md:p-[50px]  min-w-[320px]  shadow-2xl bg-white">
+                <div className="rounded-xl  p-[28px] md:p-[50px]  min-w-[320px]  shadow-2xl bg-gradient-to-tl from-[#c89a9a] to-white">
                 <form className="flex flex-col w-full     ">
                   <div>
-                    <h4 className="font-semibold text-xl pb-5 text-[#6c4848] ">Lets get in touch</h4>
+                    <h3 className="font-semibold text-xl pb-5 text-[#6c4848] ">Lets get in touch</h3>
                   </div>
 
                      <div className="capitalize flex flex-col gap-5 ">
-                        <input className="h-[40px] bg-slate-400/10 w-full border-b-2  border-[#6c4848]  outline-none ring-0"    placeholder="Name"/>  
-                        <input className="h-[40px] bg-slate-400/10 w-full border-b-2 border-[#6c4848]  outline-none ring-0"    placeholder="Email"/>  
-                        <input className="h-[40px] bg-slate-400/10 w-full border-b-2 border-[#6c4848]   outline-none ring-0"    placeholder="Contact Number"/>  
-                        <input type="select" className="h-[40px] bg-slate-400/10 w-full border-b-2 border-[#6c4848]  outline-none ring-0"    placeholder="contry"/>
+                        <input className="h-[40px] placeholder-gray-600 bg-slate-400/10 w-full border-b-2  border-[#6c4848]  outline-none ring-0"    placeholder="Name"/>  
+                        <input className="h-[40px] placeholder-gray-600 bg-slate-400/10 w-full border-b-2 border-[#6c4848]  outline-none ring-0"    placeholder="Email"/>  
+                        <input className="h-[40px] placeholder-gray-600 bg-slate-400/10 w-full border-b-2 border-[#6c4848]   outline-none ring-0"    placeholder="Contact Number"/>  
+                
                       <span>    <button className=" transition-all bg-gradient-to-br from-[#815454] via-[#5c4040] to-[#5c4040]  py-2 px-3 rounded-md font-semibold text-white hover:opacity-45">Submit</button></span>
                     
                      </div>
@@ -112,7 +112,7 @@ useEffect(()=>{
           </div>
 
             </section>
-             <section id="id" >
+             <section id="welcome" >
               <div className=" md:grid    lg:grid-cols-8  lg:h-[90dvh] w-[calc(100%-50px)] m-auto ">
 
               <div className="lg:col-span-5 flex flex-col gap-5  p-5 md:p-10 lg:p-20 bg-[#815454]    bg-gradient-to-br from-[#815454] rounded-3xl to-[#815454]  " >
@@ -137,7 +137,7 @@ Our personalized approach ensures that every step is tailored to your needs, giv
 
              </section>           
              
-                          <section className="w-full h-full bflex  p-5 md:p-10">
+              <section  id="services" className="w-full h-full bflex  p-5 md:p-10">
                 <div className="border rounded-3xl flex flex-col items-center   bg-gradient-to-br from-[#815454] via-[#301f1f] to-[#301f1f]  p-5 md:p-20 w-full ">
                      <h2 className="text-2xl lg:text-5xl text-center text-white my-10 ">Our Services</h2>
                           <div className="grid grid-cols-1 md:grid-cols-3 w-full gap-5">

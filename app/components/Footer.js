@@ -1,4 +1,8 @@
-
+import Image from "next/image"
+import fbIcon from "../../public/fbIcon.png"
+import instaIcon from "../../public/instaIcon.png"
+import linkIcon from "../../public/linkIcon.png"
+import  wpIcon from "../../public/wpIcon.png"
 
 const Footer=()=>{
   return(
@@ -35,7 +39,10 @@ const Footer=()=>{
          
       <div className=" md:p-4 flex flex-col-reverse items-center  md:flex-row md:justify-between text-xs text-white">
         <div>© 2024 Your Company, Inc. All rights reserved.</div>    <div className="flex gap-4  lg:gap-6">
-       <img src="/fbIcon.png" className="w-8 h-auto"/>   <img src="/instaIcon.png" className="w-8 h-auto" />   <img  src="/wpIcon.png" className="w-8 h-auto"/>   <img  src="/linkIcon.png" className="w-8 h-auto"/>
+       <Image  alt="icon" src={fbIcon} className="w-8 h-auto"/> 
+       <Image alt="icon" src={instaIcon} className="w-8 h-auto" />  
+       <Image alt="icon"  src={linkIcon} className="w-8 h-auto"/>  
+       <Image alt="icon"   src={wpIcon} className="w-8 h-auto"/>
          
          <div/>
       </div>
