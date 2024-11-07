@@ -24,8 +24,8 @@ const chooseUS= [
     description: "From preparing for interviews to finding accommodation and settling into a new culture, we offer complete support throughout the entire migration process, making sure you are fully prepared for life in a new country."
   },
   {
-    title: "Comprehensive End-to-End Support",
-    description: "From preparing for interviews to finding accommodation and settling into a new culture, we offer complete support throughout the entire migration process, making sure you are fully prepared for life in a new country."
+    title: "Success Stories and Testimonials",
+    description: "Join a community of satisfied clients who have successfully launched their international careers with our support. Our proven track record speaks for itself, and we take pride in the success of those we assist."
   },
   {
     title: "Global Network of Opportunities",
