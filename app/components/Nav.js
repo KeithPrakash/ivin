@@ -10,7 +10,7 @@ const Nav=()=>{
     <header className="flex  justify-between md:justify-around    py-5 px-10 items-center relative">
     {/* mobile menu */}
     <div
-  className={`absolute bg-white/10 border border-white/20 backdrop-blur-xl left-0 p-6 w-full md:hidden top-0 rounded-b-3xl h-[50dvh] transition-transform duration-500 ${
+  className={`absolute bg-white/10 border border-white/20 backdrop-blur-xl left-0 p-6 w-full md:hidden top-0 rounded-b-3xl h-[70dvh] transition-transform duration-500 ${
     nav ? "translate-y-0" : "translate-y-[-100%]"
   }`}
 >
@@ -18,7 +18,7 @@ const Nav=()=>{
     <div className="float-right">
       <Image alt="close icon" onClick={()=>setNAv(false)} src={closeIcon} className="w-7" />
     </div>
-    <ul className="text-white text-3xl font-semibold gap-10 mt-[70px]">
+    <ul className="text-white text-2xl flex flex-col font-semibold gap-10 mt-[70px]">
     <li> <a href="#hero" onClick={()=>setNAv(false)}>Home</a></li>
         <li> <a href="#welcome" onClick={()=>setNAv(false)}>Welcome</a></li>
         <li> <a href="#services" onClick={()=>setNAv(false)}>Services</a></li>

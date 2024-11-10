@@ -9,7 +9,7 @@ const Footer=()=>{
   return(
     <div className="bg-gradient-to-br flex flex-col from-[#815454] via-[#301f1f] to-[#301f1f] w-full h-full  p-6 md:p-7  lg:p-20 rounded-t-3xl ">
 
-<div className="grid lg:grid-cols-3 text-white w-full  ">
+<div className="grid lg:grid-cols-3 text-white w-full  mb-7 ">
      <Image src={logo}  alt="logo" className="w-[100px] h-auto"/>
       <div className="grid  col-span-2 md:flex justify-evenly gap-7 text-white/70  w-full">
          <div className="flex flex-col gap-2 i items-center text-xs "> 
@@ -36,7 +36,7 @@ const Footer=()=>{
     
        </div>
          
-      <div className=" md:p-4 flex flex-col-reverse items-center  md:flex-row md:justify-between text-xs text-white">
+      <div className="  py-4 md:p-4 flex flex-col-reverse items-center  md:flex-row md:justify-between text-xs text-white">
         <div>© 2024 Your Company, Inc. All rights reserved.</div>    <div className="flex gap-4  lg:gap-6">
        <Image  alt="icon" src={fbIcon} className="w-8 h-auto"/> 
        <Image alt="icon" src={instaIcon} className="w-8 h-auto" />  
