@@ -21,7 +21,7 @@ import training from "../public/training.jpg"
 import wp from "../public/wp.png"
 import aos from "aos";
 import '../node_modules/aos/dist/aos.css'
-import { useEffect } from "react";
+import { useEffect,useState } from "react";
 
 const chooseUS= [
   {
@@ -85,6 +85,30 @@ const services = [
   
 ];
 export default function Home() {
+
+
+ 
+    const [formData, setFormData] = useState({
+      name: '',
+      message: ''
+    });
+
+    const handleChange = (e) => {
+      setFormData({
+        ...formData,
+        [e.target.name]: e.target.value
+      });
+    };
+  
+    const sendMessage = () => {
+      const { name, message } = formData;
+      const phoneNumber = "+971527900527"; 
+      const encodedMessage = encodeURIComponent(`Hello, my name is ${name}. ${message}`);
+      window.open(`https://wa.me/${phoneNumber}?text=${encodedMessage}`, '_blank');
+    };
+  
+
+
 useEffect(()=>{
   
     aos.init();
@@ -92,7 +116,7 @@ useEffect(()=>{
 
   return (
           <div className="w-full relative h-auto flex flex-col gap-10  bg-gradient-to-t from-[#f4ecec] via-[#ddc4c4] to-[#f4ecec] ">
-                        <div className="fixed w-[70px] h-[50px] rounded-l-full bg-white/10  p-1 rounded-lg right-0 top-1/2 z-50  "> <div className="w-[45px] h-auto">
+                        <div className="fixed w-[70px] h-[50px] rounded-l-full bg-white/10   rounded-lg right-0 top-1/2 z-50  "> <div className="w-[45px] h-auto p-[2px] flex">
     <Image src={wp} alt="" className=" h-full object-contain"      onClick={() => window.open('https://wa.me/+971527900527', '_blank')} />
   </div></div>
             <section id="hero"  className="relative pb-20 md:pb-0  bg-gradient-to-br from-[#815454] via-[#301f1f] to-[#815454] lg:rounded-b-[100px] "        
@@ -111,17 +135,18 @@ useEffect(()=>{
             </div>
             <div className=" h-auto  flex justify-center items-center">
                 <div className="rounded-xl  p-[28px] md:p-[50px]  min-w-[320px]  shadow-2xl bg-gradient-to-tl from-[#c89a9a] to-white">
-                <form className="flex flex-col w-full     ">
+                <form className="flex flex-col w-full     " action={sendMessage}>
                   <div>
                     <h3 className="font-semibold text-xl pb-5 text-[#6c4848] ">Lets get in touch</h3>
                   </div>
 
                      <div className="capitalize flex flex-col gap-5 ">
-                        <input className="h-[40px] placeholder-gray-600 bg-slate-400/10 w-full border-b-2  border-[#6c4848]  outline-none ring-0"    placeholder="Name"/>  
-                        <input className="h-[40px] placeholder-gray-600 bg-slate-400/10 w-full border-b-2 border-[#6c4848]  outline-none ring-0"    placeholder="Email"/>  
-                        <input className="h-[40px] placeholder-gray-600 bg-slate-400/10 w-full border-b-2 border-[#6c4848]   outline-none ring-0"    placeholder="Contact Number"/>  
-                
-                      <span> <button className=" transition-all bg-gradient-to-br from-[#815454] via-[#5c4040] to-[#5c4040]  py-2 px-3 rounded-md font-semibold text-white hover:opacity-45">Submit</button></span>
+                        <input className="h-[40px] placeholder-gray-600 bg-slate-400/10 w-full border-b-2  border-[#6c4848]  outline-none ring-0"    placeholder="Name"  name="name" value={formData.name}
+                                      onChange={handleChange}/>  
+                        <textarea className="h-[100px] placeholder-gray-600 bg-slate-400/10 w-full border-b-2 border-[#6c4848]  outline-none ring-0"    placeholder="Message" name="message"  value={formData.message }
+                                       onChange={handleChange}/>  
+                                      
+                      <span> <button className=" transition-all bg-gradient-to-br from-[#815454] via-[#5c4040] to-[#5c4040]  py-2 px-3 rounded-md font-semibold text-white hover:opacity-45" type="submit">Submit</button></span>
                     
                      </div>
 

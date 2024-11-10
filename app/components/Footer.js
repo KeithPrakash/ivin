@@ -14,22 +14,20 @@ const Footer=()=>{
       <div className="grid  col-span-2 md:flex justify-evenly gap-7 text-white/70  w-full">
          <div className="flex flex-col gap-2 i items-center text-xs "> 
             <h4 className="text-base text-white">Address</h4>
-              <div>g-22 Kotugods</div>  
-               <div>g-22 Kotugods</div>     
-               <div>g-22 Kotugods</div>    
-                <div>g-22 Kotugods</div>
+              <div>38/7 Rathnam road,</div>  
+               <div>Colombo-13,</div>     
+               <div>Sri Lanka</div>    
+            
          </div>  <div className="flex flex-col gap-2 items-center  text-xs"> 
             <h4 className="text-base text-white">Contact</h4>
-              <div>+94 72 383 73939</div>  
-               <div>test233@gmail.com</div>     
-               <div>some infor</div>    
-                <div>g-22 Kotugods</div>
+              <div>+971 52 790 0527</div>  
+               <div>Info@ivinconsultancy.com</div>     
+             
          </div>  <div className="flex flex-col gap-2  items-center text-xs"> 
-            <h4 className="text-base">Address</h4>
-              <div>g-22 Kotugods</div>  
-               <div>g-22 Kotugods</div>     
-               <div>g-22 Kotugods</div>    
-                <div>g-22 Kotugods</div>
+            <h4 className="text-base">Conpany</h4>
+            <div> <a href="#welcome" >Welcome</a></div>
+        <div> <a href="#services">Services</a></div>
+        <div > <a href="#trust">Why Choose us</a></div>
          </div>
 
       </div>
