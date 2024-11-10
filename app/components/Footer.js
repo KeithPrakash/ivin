@@ -3,13 +3,14 @@ import fbIcon from "../../public/fbIcon.png"
 import instaIcon from "../../public/instaIcon.png"
 import linkIcon from "../../public/linkIcon.png"
 import  wpIcon from "../../public/wpIcon.png"
+import logo from "../../public/logoivin.png"
 
 const Footer=()=>{
   return(
     <div className="bg-gradient-to-br flex flex-col from-[#815454] via-[#301f1f] to-[#301f1f] w-full h-full  p-6 md:p-7  lg:p-20 rounded-t-3xl ">
 
 <div className="grid lg:grid-cols-3 text-white w-full  ">
-      <div>logo</div>
+     <Image src={logo}  alt="logo" className="w-[100px] h-auto"/>
       <div className="grid  col-span-2 md:flex justify-evenly gap-7 text-white/70  w-full">
          <div className="flex flex-col gap-2 i items-center text-xs "> 
             <h4 className="text-base text-white">Address</h4>
