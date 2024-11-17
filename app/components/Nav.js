@@ -26,7 +26,7 @@ const Nav=()=>{
       </ul> </div>
     {/* mobile menu */}
       <div className="   rounded-sm ">
-        <Image  alt="image" src={logoinvin} className="w-20 md:w-20 rounded-xl object-cover"/>
+        <Image  alt="image" src={logoinvin} className="w-20 md:w-20  xl:w-24 rounded-xl object-cover"/>
       </div>
        <div className="md:flex items-center hidden justify-center text-white text-sm md:text-xl" > <ul className="flex  md:gap-4 lg:gap-6">
         <li> <a href="#hero">Home</a></li>

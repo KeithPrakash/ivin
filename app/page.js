@@ -127,7 +127,7 @@ useEffect(()=>{
             <div className="  flex flex-col items-center justify-center gap-10   p-10 text-white">
               
               <div>
-              <h1 className="font-semibold text-2xl md:text-5xl text ">Unlock Your <span className="">Global</span> Potential</h1>
+              <h1 className="font-semibold text-2xl md:text-5xl 2xl:text-6 text ">Unlock Your <span className="">Global</span> Potential</h1>
               <h2 className=" text-base md:text-xl my-4">
               We Make Your Journey Abroad Smooth and Stress-Free, From Visa Applications to Landing Your Dream Job
               </h2>
