@@ -123,7 +123,7 @@ useEffect(()=>{
   return (
           <div className="w-full relative h-auto flex flex-col gap-10  bg-gradient-to-t from-[#f4ecec] via-[#ddc4c4] to-[#f4ecec] ">
                         <div className="fixed w-[70px] h-[50px] rounded-l-full bg-white/10   rounded-lg right-0 top-1/2 z-50  "> <div className="w-[45px] h-auto p-[2px] flex">
-    <Image src={wp} alt="" className=" h-full object-contain"      onClick={() => window.open('https://wa.me/+971527900527', '_blank')} />
+    <Image src={wp} alt="whatsapp-icon" className=" h-full object-contain"      onClick={() => window.open('https://wa.me/+971527900527', '_blank')} />
   </div></div>
             <section id="hero"  className="relative pb-20 md:pb-0  bg-gradient-to-br from-[#815454] via-[#301f1f] to-[#815454] lg:rounded-b-[100px] "        
             >
