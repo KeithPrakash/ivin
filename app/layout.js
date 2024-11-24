@@ -9,18 +9,22 @@ const poppins= Poppins({
   weight:['400']
 })
  
+
 export const metadata = {
-  title: "home page",
-  description: "Work visa agency",
+  title: 'Ivin Consultancy | Work Visa Assistance',
+  description: 'Ivin Consultancy specializes in helping individuals secure work visas for opportunities abroad. Trusted experts in international career support.',
+  icons: {
+    icon: '/logoivin.png', 
+  },
 };
+
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
         className={poppins.className}
-      >
-  
+      > 
         {children}
         <Footer/>
       </body>

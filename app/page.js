@@ -1,4 +1,5 @@
 'use client'
+
 import ShimmerButton from "@/components/ui/shimmer-button";
 import Image from "next/image";
 import Card from "./components/Card";
@@ -84,6 +85,11 @@ const services = [
   },
   
 ];
+
+
+
+
+
 export default function Home() {
 
 
@@ -146,16 +152,11 @@ useEffect(()=>{
                         <textarea className="h-[100px] placeholder-gray-600 bg-slate-400/10 w-full border-b-2 border-[#6c4848]  outline-none ring-0"    placeholder="Message" name="message"  value={formData.message }
                                        onChange={handleChange}/>  
                                       
-                      <span> <button className=" transition-all bg-gradient-to-br from-[#815454] via-[#5c4040] to-[#5c4040]  py-2 px-3 rounded-md font-semibold text-white hover:opacity-45" type="submit">Submit</button></span>
-                    
+                      <span> <button className=" transition-all bg-gradient-to-br from-[#815454] via-[#5c4040] to-[#5c4040]  py-2 px-3 rounded-md font-semibold text-white hover:opacity-45" type="submit">Submit</button></span>                 
                      </div>
-
                   </form>
-                </div>
-                
-            </div>
-
-               
+                </div>          
+            </div>              
           </div>  
             </section>
              <section id="welcome" data-aos="fade-up" data-duration="2000" >
@@ -216,16 +217,8 @@ Our personalized approach ensures that every step is tailored to your needs, giv
               {   chooseUS? chooseUS.map((item,index)=>(
                      <TrustCard   key={index}  img={item.img} title={item.title}  desc={item.description}/>
               )):null
-
     }
-       
-
-
               </div>
-       
-      
-
-
      </div>
              </section>
           </div>
