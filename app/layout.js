@@ -16,6 +16,19 @@ export const metadata = {
   icons: {
     icon: '/logoivin.png', 
   },
+  openGraph: {
+    title: 'Ivin Consultancy | Work Visa Experts',
+    description: 'Expert guidance on securing work visas for international job opportunities.',
+    url: 'https://ivinconsultancy.com',
+    images: [
+      {
+        url: '/logoivin.png', 
+        width: 800,
+        height: 600,
+        alt: 'Ivin Consultancy Logo',
+      },
+    ],
+  },
 };
 
 
