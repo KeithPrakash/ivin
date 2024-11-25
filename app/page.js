@@ -1,6 +1,6 @@
 'use client'
 
-import ShimmerButton from "@/components/ui/shimmer-button";
+
 import Image from "next/image";
 import Card from "./components/Card";
 import TrustCard from "./components/TrustCard";
@@ -23,7 +23,7 @@ import wp from "../public/wp.png"
 import aos from "aos";
 import '../node_modules/aos/dist/aos.css'
 import { useEffect,useState } from "react";
-
+import WordPullUp from "@/components/ui/word-pull-up"
 const chooseUS= [
   {
     img:guidance,
@@ -121,26 +121,32 @@ useEffect(()=>{
   }, [])
 
   return (
-          <div className="w-full relative h-auto flex flex-col gap-10  bg-gradient-to-t from-[#f4ecec] via-[#ddc4c4] to-[#f4ecec] ">
+          <div className="w-full relative h-auto flex flex-col gap-10  bg-gradient-to-t from-[#f4ecec] via-[#ddc4c4] to-[#f4ecec]  ">
                         <div className="fixed w-[70px] h-[50px] rounded-l-full bg-white/10   rounded-lg right-0 top-1/2 z-50  "> <div className="w-[45px] h-auto p-[2px] flex">
     <Image src={wp} alt="whatsapp-icon" className=" h-full object-contain"      onClick={() => window.open('https://wa.me/+971527900527', '_blank')} />
   </div></div>
-            <section id="hero"  className="relative pb-20 md:pb-0  bg-gradient-to-br from-[#815454] via-[#301f1f] to-[#815454] lg:rounded-b-[100px] "        
+            <section id="hero"  className="relative pb-20 md:pb-0  bg-gradient-to-br from-[#815454] via-[#301f1f] to-[#815454] lg:rounded-b-[100px] pt-14"        
             >
-              <Nav/>
+             
               
           <div className="grid md:grid-cols-2 gap-10 md:h-[90dvh]   max-w-[1200px] mx-auto">
             <div className="  flex flex-col items-center justify-center gap-10   p-10 text-white">
               
               <div>
-              <h1 className="font-semibold text-2xl md:text-5xl 2xl:text-6 text ">Unlock Your <span className="">Global</span> Potential</h1>
-              <h2 className=" text-base md:text-xl my-4">
+              <h1 >
+                
+              <WordPullUp 
+              className="font-semibold text-2xl md:text-5xl 2xl:text-6 text lg:text-nowrap "
+              words=" Unlock Global Potential"
+              />
+</h1>
+              <h2 className=" text-base md:text-xl my-4 font-extralight indent-8 text-center " data-aos="fade-up">
               We Make Your Journey Abroad Smooth and Stress-Free, From Visa Applications to Landing Your Dream Job
               </h2>
               </div>
             </div>
             <div className=" h-auto  flex justify-center items-center">
-                <div className="rounded-xl  p-[28px] md:p-[50px]  min-w-[320px]  shadow-2xl bg-gradient-to-tl from-[#c89a9a] to-white">
+                <div className="rounded-xl  p-[28px] md:p-[50px]  min-w-[320px]  shadow-2xl bg-gradient-to-tl from-[#c89a9a] to-white" data-aos="fade-left" data-delay="300">
                 <form className="flex flex-col w-full     " action={sendMessage}>
                   <div>
                     <h3 className="font-semibold text-xl pb-5 text-[#6c4848] ">Lets get in touch</h3>
@@ -164,7 +170,10 @@ useEffect(()=>{
 
               <div className="lg:col-span-5 flex flex-col gap-5  p-5 md:p-10 lg:p-20 bg-[#815454]    bg-gradient-to-br from-[#815454] rounded-3xl to-[#815454]  " >
                 <div className="flex flex-col gap-5 justify-center items-center h-full w-full text-white" >
-                <h2 className="font-semibold text-2xl md:3xl">Welcome to Your Future of Boundless Opportunities </h2>
+                <h2 className="font-semibold text-2xl md:3xl">
+                  
+                  <WordPullUp  className="font-semibold text-2xl md:3xl" words="Welcome to Your Future of Boundless Opportunities "/>
+            </h2>
 
                    <p className="indent-9 opacity-95">
                    At IVIN Consultations, we help you take the next step in your career by providing expert guidance for living and working abroad. From visa assistance to securing the right job, we make the migration process simple and stress-free.
