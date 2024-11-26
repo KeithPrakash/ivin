@@ -24,7 +24,7 @@ const Footer=()=>{
                <div>Info@ivinconsultancy.com</div>     
              
          </div>  <div className="flex flex-col gap-2  items-center text-xs"> 
-            <h4 className="text-base">Conpany</h4>
+            <h4 className="text-base">Company</h4>
             <div> <a href="#welcome" >Welcome</a></div>
         <div> <a href="#services">Services</a></div>
         <div > <a href="#trust">Why Choose us</a></div>
