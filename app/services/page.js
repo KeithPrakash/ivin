@@ -48,7 +48,7 @@ const Services =()=>{
 
     return(
       <div className="bg-gradient-to-t from-[#f4ecec] via-[#ddc4c4] to-[#f4ecec] ">
-        <div className=" bg-gradient-to-br from-[#815454] via-[#301f1f] to-[#301f1f]  h-[20dvh]   rounded-b-2xl w-full">
+        <div className=" bg-gradient-to-br from-[#815454] via-[#301f1f] to-[#301f1f]  h-[14dvh]  md:h-[20dvh]  rounded-b-2xl w-full">
 
         </div>
 <section  id="services" className="w-full h-full flex  p-5 md:p-10" data-aos="fade-up" data-duration="2000">

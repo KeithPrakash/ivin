@@ -9,8 +9,8 @@ const AboutUs=()=>{
 
 
     return(
-        <div className="bg-gradient-to-t from-[#f4ecec] via-[#ddc4c4] to-[#f4ecec]  h-full]">
-        <div className=" bg-gradient-to-br from-[#815454] via-[#301f1f] to-[#301f1f]  h-[20dvh]   rounded-b-2xl w-full">
+        <div className="bg-gradient-to-t from-[#f4ecec] via-[#ddc4c4] to-[#f4ecec]  h-full">
+        <div className=" bg-gradient-to-br from-[#815454] via-[#301f1f] to-[#301f1f]  h-[14dvh]  md:h-[20dvh]   rounded-b-2xl w-full">
 
         </div>
         
@@ -32,7 +32,7 @@ const AboutUs=()=>{
         </div>
 
       </section>
-      <section id="Mission" className="m-10 " >
+      <section id="Mission" className="p-10" >
 
         <div className="grid grid-cols-1 lg:grid-cols-2 bg-[#6c4848]  rounded-2xl">
       

@@ -51,12 +51,12 @@ const Contact =()=>{
                   </form>
                 </div>          
             </div>     
-     <div className="relative flex w-full items-center justify-center overflow-hidden  px-40 pb-40 pt-8 md:pb-60  min-h-[60dvh]">
+     <div className="relative flex w-full items-center justify-center overflow-hidden  px-40 pb-40  md:pb-80   h-[45dvh]  md:min-h-[60dvh]">
       <span className="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-700/80 bg-clip-text text-center width:  z-50  absolute text-xl xl:text-2xl font-semibold leading-none text-transparent ">
       Unlock International Opportunities<br/> with IVIN Consultancy
       </span>
-      <Globe className="top-[30dvh] w-[70dvw]   lg:w-[30dvw] m-auto"  />
-      <div className="pointer-events-none absolute inset-0 h-full bg-[radial-gradient(circle_at_50%_200%,rgba(0,0,0,0.2),rgba(255,255,255,0))]" />
+      <Globe className="top-[28dvh] w-[80dvw]   lg:w-[40dvw] m-auto"  />
+      <div className="pointer-events-none absolute inset-0 h-full " />
     </div>
   </div>         
 
