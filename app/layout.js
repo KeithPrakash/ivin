@@ -2,8 +2,6 @@ import { Poppins } from 'next/font/google'
 import "./globals.css";
 import Footer from './components/Footer';
 import Nav from './components/Nav';
-// import Image from 'next/image';
-// import Wp from './components/wp';
 
 
 
@@ -42,7 +40,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${poppins.className}+ relative`}
 >    
-{/* <Wp/> */}
+
       <Nav/>
         {children}
         <Footer/>
