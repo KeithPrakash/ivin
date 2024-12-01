@@ -176,9 +176,7 @@ useEffect(()=>{
             </h2>
 
                    <p className="indent-9 opacity-95">
-                   At IVIN Consultations, we help you take the next step in your career by providing expert guidance for living and working abroad. From visa assistance to securing the right job, we make the migration process simple and stress-free.
-
-Our personalized approach ensures that every step is tailored to your needs, giving you the confidence to pursue global opportunities. Welcome to a future where your career has no borders, and new possibilities await.
+                   IVIN Consultancy is your gateway to international opportunities. We are dedicated to delivering exceptional services in making your dream of working abroad into reality. By simplifying the process of obtaining foreign work visas and guiding you in every step of the way. With our expertise, we can guarantee that we will assist you to unlock your boundless opportunities worldwide.
                    </p>
                 </div>
 
@@ -192,7 +190,7 @@ Our personalized approach ensures that every step is tailored to your needs, giv
               </div>
 
              </section>           
-             
+{/*              
               <section  id="services" className="w-full h-full bflex  p-5 md:p-10" data-aos="fade-up" data-duration="2000">
                 <div className="border rounded-3xl flex flex-col items-center   bg-gradient-to-br from-[#815454] via-[#301f1f] to-[#301f1f]  p-5 md:p-20 w-full ">
                      <h2 className="text-2xl lg:text-5xl text-center text-white my-10 ">Our Services</h2>
@@ -216,7 +214,7 @@ Our personalized approach ensures that every step is tailored to your needs, giv
                        
                 </div>
 
-             </section>
+             </section> */}
              <section id="trust" className=" w-full h-full bflex  p-5 md:p-10"  data-aos="fade-up" data-duration="200">
 
               <div className="w-full h-full bg-[#6c4848]  rounded-3xl p-5 md:p-20 " >

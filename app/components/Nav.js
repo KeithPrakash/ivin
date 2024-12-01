@@ -9,7 +9,7 @@ import Link from "next/link";
 const Nav=()=>{
   const [nav ,setNAv]=useState(false)
   return(
-    <header className="absolute top-0 w-full z-50   " >
+    <header className="absolute top-0 w-full z-[9999]  " >
      <div className="flex  justify-between md:justify-around    py-5 px-10 items-center relative" >
          {/* mobile menu */}
     <div
@@ -22,10 +22,10 @@ const Nav=()=>{
       <Image alt="close icon" onClick={()=>setNAv(false)} src={closeIcon} className="w-7" />
     </div>
     <ul className="text-white text-2xl flex flex-col font-semibold gap-10 mt-[70px]">
-    <li> <a href="#hero" onClick={()=>setNAv(false)}>Home</a></li>
-        <li> <a href="#welcome" onClick={()=>setNAv(false)}>Welcome</a></li>
-        <li> <a href="#services" onClick={()=>setNAv(false)}>Services</a></li>
-        <li > <a href="#trust" onClick={()=>setNAv(false)}>Why Choose us</a></li>
+    <li> <Link href="/">Home</Link></li>
+        <li> <Link href="/about-us">About Us</Link></li>
+        <li>  <Link href='/services'>Services</Link></li>
+        <li > <a href="/contact">Contact</a></li> 
       </ul> </div>
     {/* mobile menu */}
       <div className="   rounded-sm ">
@@ -35,7 +35,7 @@ const Nav=()=>{
         <li> <Link href="/">Home</Link></li>
         <li> <Link href="/about-us">About Us</Link></li>
         <li>  <Link href='/services'>Services</Link></li>
-        <li > <a href="#trusts">Why Choose us</a></li>
+        <li > <a href="/contact">Contact</a></li>
         </ul></div>
    <div className=""> <Image alt="menu icon"
    onClick={()=>setNAv(true)}
