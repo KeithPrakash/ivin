@@ -1,7 +1,6 @@
 import Image from "next/image";
 
-
-
+ 
 const Card =(props)=>{
   const {title,img} =props;
   return(
@@ -10,13 +9,8 @@ const Card =(props)=>{
       <Image  src={img}  alt="image"className="rounded-xl aspect-square object-cover  bg-slate-600 w-full " /> 
       </div>   
     <div>
-    <h3 className="font-semibold md:text-xl text-center">{title}</h3>
-    
+    <h3 className="font-semibold md:text-xl text-center">{title}</h3>   
     </div>
-
-
-
-
 </div>
   )
 }

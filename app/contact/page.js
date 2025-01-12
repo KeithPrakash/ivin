@@ -32,8 +32,8 @@ const Contact =()=>{
 
 </div>
 
-<div className="flex flex-col   lg:grid  lg:grid-cols-2 w-full pt-20px mt-20">
-<div className=" h-auto  flex justify-center items-center w-full pb-20 ">
+<div className="flex flex-col   lg:grid  lg:grid-cols-2 w-full pt-20px mt-20 max-w-[1000px] mx-auto">
+<div className=" h-auto  flex justify-center items-center w-full pb-20  ">
                 <div className="rounded-xl  p-[28px] md:p-[50px]  min-w-[320px] bg-slate-200  shadow-2xl" data-aos="fade-left" data-delay="300">
                 <form className="flex flex-col w-full     " action={sendMessage}>
                   <div>
@@ -51,11 +51,11 @@ const Contact =()=>{
                   </form>
                 </div>          
             </div>     
-     <div className="relative flex w-full items-center justify-center overflow-hidden  px-40 pb-40  md:pb-80   h-[45dvh]  md:min-h-[60dvh]">
+     <div className="relative flex w-full items-center justify-center overflow-hidden  px-40 pb-40  md:pb-[400px]   h-[70dvh]  md:min-h-[80dvh]">
       <span className="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-700/80 bg-clip-text text-center width:  z-50  absolute text-xl xl:text-2xl font-semibold leading-none text-transparent ">
       Unlock International Opportunities<br/> with IVIN Consultancy
       </span>
-      <Globe className="top-[28dvh] w-[80dvw]   lg:w-[40dvw] m-auto"  />
+      <Globe className="top-[0dvh] w-[80dvw]   lg:w-[27dvw] m-auto"  />
       <div className="pointer-events-none absolute inset-0 h-full " />
     </div>
   </div>         

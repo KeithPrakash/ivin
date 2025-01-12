@@ -90,13 +90,22 @@ module.exports = {
   				'100%': {
   					transform: 'translateZ(0) rotate(360deg)'
   				}
+  			},
+  			grid: {
+  				'0%': {
+  					transform: 'translateY(-50%)'
+  				},
+  				'100%': {
+  					transform: 'translateY(0)'
+  				}
   			}
   		},
   		animation: {
   			marquee: 'marquee var(--duration) infinite linear',
   			'marquee-vertical': 'marquee-vertical var(--duration) linear infinite',
   			'shimmer-slide': 'shimmer-slide var(--speed) ease-in-out infinite alternate',
-  			'spin-around': 'spin-around calc(var(--speed) * 2) infinite linear'
+  			'spin-around': 'spin-around calc(var(--speed) * 2) infinite linear',
+  			grid: 'grid 15s linear infinite'
   		}
   	}
   },

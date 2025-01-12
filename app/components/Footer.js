@@ -14,13 +14,13 @@ const Footer=()=>{
       <div className="grid  col-span-2 md:flex justify-evenly gap-7 text-white/70  w-full">
          <div className="flex flex-col gap-2 i items-center text-xs "> 
             <h4 className="text-base text-white">Address</h4>
-              <div>38/7 Rathnam road,</div>  
-               <div>Colombo-13,</div>     
-               <div>Sri Lanka</div>    
+              <div>No-04 National Housing Scheme,</div>  
+               <div>Bogamadhitha Hali-Ella,</div>     
+               <div>Badulla</div>    
             
          </div>  <div className="flex flex-col gap-2 items-center  text-xs"> 
             <h4 className="text-base text-white">Contact</h4>
-              <div>+971 52 790 0527</div>  
+              <div>+94 778 604 904</div>  
                <div>Info@ivinconsultancy.com</div>     
              
          </div>  <div className="flex flex-col gap-2  items-center text-xs"> 

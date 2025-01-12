@@ -133,7 +133,7 @@ useEffect(()=>{
             <div className="  flex flex-col items-center justify-center gap-10   p-10 text-white">
               
               <div>
-              <h1 >
+              <h1>
                 
               <WordPullUp 
               className="font-semibold text-2xl md:text-5xl 2xl:text-6 text lg:text-nowrap "
