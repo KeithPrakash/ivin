@@ -47,12 +47,12 @@ const Services =()=>{
 
 
     return(
-      <div className="bg-gradient-to-t from-[#f4ecec] via-[#ddc4c4] to-[#f4ecec] ">
-        <div className=" bg-gradient-to-br from-[#815454] via-[#301f1f] to-[#301f1f]  h-[14dvh]  md:h-[20dvh]  rounded-b-2xl w-full">
+      <div className=" bg-white ">
+        <div className=" bg-white h-[14dvh]  md:h-[16dvh] w-full">
 
         </div>
 <section  id="services" className="w-full h-full flex  p-5 md:p-10" data-aos="fade-up" data-duration="2000">
-        <div className="border rounded-3xl flex flex-col items-center   bg-gradient-to-br from-[#815454] via-[#301f1f] to-[#301f1f]   p-5 md:p-20 w-full ">
+        <div className="border rounded-3xl flex flex-col items-center   bg-blue-400   p-5 md:p-20 w-full ">
              <h2 className="text-2xl lg:text-5xl text-center text-white my-10 ">Our Services</h2>
                   <div className="grid grid-cols-1 md:grid-cols-3 w-full gap-5">
 

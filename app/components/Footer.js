@@ -4,22 +4,23 @@ import instaIcon from "../../public/instaIcon.png"
 import linkIcon from "../../public/linkIcon.png"
 import  wpIcon from "../../public/wpIcon.png"
 import logo from "../../public/logoivin.png"
+import newlogo from "../../public/ivin_new.png";
 
 const Footer=()=>{
   return(
-    <div className="bg-gradient-to-br flex flex-col from-[#815454] via-[#301f1f] to-[#301f1f] w-full h-full  p-6 md:p-7  lg:p-20 rounded-t-3xl ">
+    <div className="bg-gradient-to-br flex flex-col from-white via-blue-100 to-blue-300 w-full h-full  p-6 md:p-7  lg:p-20 rounded-t-3xl  text-blue-950">
 
-<div className="grid lg:grid-cols-3 text-white w-full  mb-7 ">
-     <Image src={logo}  alt="logo" className="w-[100px] h-auto"/>
-      <div className="grid  col-span-2 md:flex justify-evenly gap-7 text-white/70  w-full">
+<div className="grid lg:grid-cols-3  text-blue-950 w-full  mb-7 ">
+     <Image src={newlogo}  alt="logo" className="w-[100px] h-auto"/>
+      <div className="grid  col-span-2 md:flex justify-evenly gap-7  w-full">
          <div className="flex flex-col gap-2 i items-center text-xs "> 
-            <h4 className="text-base text-white">Address</h4>
+            <h4 className="text-base ">Address</h4>
               <div>No-04 National Housing Scheme,</div>  
                <div>Bogamadhitha Hali-Ella,</div>     
                <div>Badulla</div>    
             
          </div>  <div className="flex flex-col gap-2 items-center  text-xs"> 
-            <h4 className="text-base text-white">Contact</h4>
+            <h4 className="text-base  text-blue-950">Contact</h4>
               <div>+94 778 604 904</div>  
                <div>Info@ivinconsultancy.com</div>     
              
@@ -36,7 +37,7 @@ const Footer=()=>{
     
        </div>
          
-      <div className="  py-4 md:p-4 flex flex-col-reverse items-center  md:flex-row md:justify-between text-xs text-white">
+      <div className="  py-4 md:p-4 flex flex-col-reverse items-center  md:flex-row md:justify-between text-xs  text-blue-950">
         <div>© 2024 Your Company, Inc. All rights reserved.</div>    <div className="flex gap-4  lg:gap-6">
        <Image  alt="icon" src={fbIcon} className="w-8 h-auto"/> 
        <Image alt="icon" src={instaIcon} className="w-8 h-auto" />  
