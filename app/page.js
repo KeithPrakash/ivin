@@ -124,7 +124,7 @@ useEffect(()=>{
   return (
           <div className="w-full relative h-auto flex flex-col gap-10  bg-[#FFF8F8] ">
                     <div className="fixed w-[70px] h-[50px] rounded-l-full bg-white/10   rounded-lg right-0 top-1/2 z-50  "> <div className="w-[45px] h-auto p-[2px] flex">
-                            <Image src={wp} alt="whatsapp-icon" className=" h-full object-contain"      onClick={() => window.open('https://wa.me/+97155033192', '_blank')} />
+                            <Image src={wp} alt="whatsapp-icon" className=" h-full object-contain"      onClick={() => window.open('https://wa.me/+971505033192', '_blank')} />
                     </div>
           </div>
             <section id="hero"  className="relative pb-20 md:pb-0  lg:rounded-b-[100px] pt-14 bg-${hero}"        
