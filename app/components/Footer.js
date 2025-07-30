@@ -18,18 +18,20 @@ const Footer=()=>{
               <div>No-04 National Housing Scheme,</div>  
                <div>Bogamadhitha Hali-Ella,</div>     
                <div>Badulla</div>    
-            
-         </div>  <div className="flex flex-col gap-2 items-center  text-xs"> 
+              <div>Sri Lanka </div>
+         </div>  
+       <div className="flex flex-col gap-2 items-center  text-xs"> 
             <h4 className="text-base  text-blue-950">Contact</h4>
-              <div>+94 778 604 904</div>  
-               <div>Info@ivinconsultancy.com</div>     
+            <div>+94 778 604 904</div>  
+            <div>Info@ivinconsultancy.com</div>     
              
-         </div>  <div className="flex flex-col gap-2  items-center text-xs"> 
+         </div> 
+      <div className="flex flex-col gap-2  items-center text-xs"> 
             <h4 className="text-base">Company</h4>
             <div> <a href="#welcome" >Welcome</a></div>
-        <div> <a href="#services">Services</a></div>
-        <div > <a href="#trust">Why Choose us</a></div>
-         </div>
+           <div> <a href="#services">Services</a></div>
+           <div > <a href="#trust">Why Choose us</a></div>
+        </div>
 
       </div>
     </div>
