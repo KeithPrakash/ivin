@@ -22,6 +22,13 @@ const Nav=()=>{
   }`}
 >
     {/* bg-[#ecdcdc] -[#6c4848] */}
+
+
+
+
+
+
+    
     <div className="float-right">
       <Image alt="close icon" onClick={()=>setNAv(false)} src={closeIcon} className="w-7" />
     </div>
